@@ -10,17 +10,32 @@ public class Journey {
 	private String jnyID;
 	private String jnyStart;
 	private String jnyDestination;
+	private String jnyStops;
 	private double factor;
 	private double fee;
 	private String phoneNumber;
 
 
+
 	public String getJnyID() {
 		return jnyID;
 	}
+	/**
+	 * @return the jnyStops
+	 */
+	public String getJnyStops() {
+		return jnyStops;
+	}
 
 	/**
-	 * @return the phoneNumber
+	 * @param phoneNumber the jnyStops to set
+	 */
+	public void setJnyStops(String jnyStops) {
+		this.jnyStops = jnyStops;
+	}
+
+	/**
+	 * @return the jnyStops
 	 */
 	public String getPhoneNumber() {
 		return phoneNumber;
